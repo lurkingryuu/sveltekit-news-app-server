@@ -1,0 +1,23 @@
+{
+  "name": "devtask_server",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/lurkingryuu/sveltekit-news-app-server.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  }
+}
