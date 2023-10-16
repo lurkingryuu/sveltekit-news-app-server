@@ -26,6 +26,11 @@ app.use('/api', api);
 
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+const host = process.env.HOST || "0.0.0.0";
+app.listen(
+    port,
+    host,
+    () => console.log(`Server listening at http://${host}:${port}`)
+);
 
 module.exports = app;
